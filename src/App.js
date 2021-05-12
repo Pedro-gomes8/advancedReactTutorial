@@ -1,11 +1,11 @@
-import React from 'react';
-import UseEffectBasics from './tutorial/2-useEffect/setup/3-useEffect-fetch-data';
+import React from "react";
+import ConditionalRendering from "./tutorial/3-conditional-rendering/setup/3-show-hide";
 function App() {
   return (
-    <div className='container'>
-      <UseEffectBasics></UseEffectBasics>
+    <div className="container">
+      <ConditionalRendering></ConditionalRendering>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
